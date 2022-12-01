@@ -7,9 +7,9 @@ export default function Header() {
   const [mobileMenuIsOpen, setMobileMenuIsOpen] = useState(false);
 
   return (
-    <header className="" style={
-      backgroundColor = "#89b3e3"
-    }>
+    <header className="" style={{
+      backgroundColor: "#89b3e3"
+    }}>
       <div className="flex flex-wrap items-center justify-between lg:container px-2 py-4 mx-auto md:flex-no-wrap md:px-6">
         <div className="flex items-center">
 
