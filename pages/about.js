@@ -5,30 +5,21 @@ export default function AboutPage() {
     <div className="grid md:grid-cols-2 gap-6 grid-cols-1">
       <div>
         <section className="mb-6">
-          <h2 className="mb-3 text-xl font-bold">What is Tailwind?</h2>
-
+          <h2 className="mb-3 text-xl font-bold">About SoRo Weekly</h2>
           <p>
-            Tailwind CSS is a highly customizable, low-level CSS framework that
-            gives you all of the building blocks you need to build bespoke
-            designs without any annoying opinionated styles you have to fight to
-            override.
+            SoRo Weekly is a weekly/fortnightly newsletter, your weekly reading list - something you can skim through and keep yourself updated, in the loop with the latest in Soft Robotics.
           </p>
         </section>
 
         <section>
-          <h2 className="mb-3 text-xl font-bold">What is Next.js?</h2>
+          <h2 className="mb-3 text-xl font-bold">About the Authors</h2>
           <p>
-            Next.js is a minimalistic framework for creating server-rendered
-            React applications.
+            Aditya Mulgundkar, Saksham Gupta, Sahil Kamath, Megh Doshi
+            <br></br>
+            (with equal contributions)
           </p>
         </section>
 
-        <section>
-          <h2 className="mb-3 text-xl font-bold">What is Revue?</h2>
-          <p>
-            A free Nesletter service now powered by Twitter.
-          </p>
-        </section>
       </div>
     </div>
   );
